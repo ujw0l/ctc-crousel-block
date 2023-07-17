@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ctc-carousel/ctc-carousel",
+  "version": "0.1.0",
+  "title": "CTC Carousel",
+  "category": "media",
+  "icon": "slides",
+  "description": "Gutenberg block to display images in carousel",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ctc-carousel",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}
